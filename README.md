@@ -33,7 +33,12 @@ Sidewalk data is relevant for the anchor calculations for the AR models. Please 
 Shape: the geometry is the feature used to calculate the distance from each anchor points candidates and determine which is closest to the sidewalk. The logics could be summarized as followed
 First, pick a closest sidewalk to the project by comparing to all sidewalks to the project centroid
 Then, an anchor point is picked from the footprints geometry that is closest to the closest sidewalk
-Use anchor point to calculate an elevation point on the closest sidewalk that is the nearest point on the sidewalk. 
+
+## Additional Notes on anchor points
+
+## Finding the nearest point to anchor the AR model
+After multiple on site tests we found out that it is best if we set the AR anchor point to a corner of the footprint closest to the sidewalk. To make these calculations part of the automation, we created some logic that gets the Sidewalk polygon data and finds the closest Sidewalk, then by iteration through footprint polygon data we compare the distances between polygon points and sidewalk. The elevation point is also picked from the nearest sidewalk after the anchor point is selected. Then, the elevation point is defined as the point on the sidewalk that is closest to the building anchor point. Then using latitude and longitude we can query the elevation data from https://epqs.nationalmap.gov
+
 
 
 
