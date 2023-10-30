@@ -3,9 +3,9 @@ at [inCitu](https://www.incitu.us/), we are on a mission to democratize city pla
 We make open data more actionable, tangible and accessible to all residents, on the ground level in the streets. 
 With our Ai powered generative technology channeled into mobile AR, anyone can simply scan a QR code to interact with the future of their cities in 3D.
 
-# How our product works
-We take open data and transform it from numbers and charts to geo anchored 3D models and interactive Augmented Reality. 
-##[Permits and Application Data:](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9)
+#About our data structure
+
+## [Permits and Application Data:](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9)
 The main source of future projects and necessary attributes for these project to create the AR models. 
 Permits Type Definition: this is the where work application
 For the purpose of visualizing the future development in the city, only a subset of the permit is relevant to our purpose. This attribute could be a useful filter to narrow down the relevant projects.
