@@ -28,12 +28,13 @@ When the building type is ambiguous or not specified in the attributes mentioned
 
 ## [Building Footprints](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Map-of-Building-Footprints/xy57-fey9)
 Footprints data need to be joined with the other attributes data in order to create AR models and also to be geo-anchored their future sites.  
-Shape: the geometry field which would need to be exported to geojson for model generation. This is currently a multipolygon from the source data. In order to have a successful generation of AR models from our pipeline. This would need to be converted to a Polygon. You might use something like ST_ExteriorRing to do the conversion. Anchor point calculation would also depend on the footprint geometry. Something like ST_DumpPoints might help create the collections of points that would be iterated through to . See more explanations about anchor points in the notes below. 
+Shape: the geometry field which would need to be exported to geojson for model generation. This is currently a multipolygon from the source data. In order to have a successful generation of AR models from our pipeline. This would need to be converted to a Polygon. You might use something like ST_ExteriorRing to do the conversion. Anchor point calculation would also depend on the footprint geometry. Something like ST_DumpPoints might help create the collections of points that would be iterated through to. See more explanations about anchor points in the notes below. 
 
 ## [Sidewalks](https://data.sfgov.org/Transportation/Map-of-Sidewalk-Widths/ygcm-bt3x)
 Sidewalk data is relevant for the anchor calculations for the AR models. Please see more detailed notes below on how anchor calculations are done. The elevation point of the sidewalk is part of the output dataset from the open data pipeline. 
 Shape: the geometry is the feature used to calculate the distance from each anchor points candidates and determine which is closest to the sidewalk. The logics could be summarized as followed: 
-* First, pick a closest sidewalk to the project by comparing to all sidewalks to the project centroid. * Then, an anchor point is picked from the footprints geometry that is closest to the closest sidewalk.
+* First, pick a closest sidewalk to the project by comparing to all sidewalks to the project centroid.
+* Then, an anchor point is picked from the footprints geometry that is closest to the closest sidewalk.
 
 ## Additional Notes on anchor points
 ![Image of anchor points](https://i.imgur.com/kdr7RYA.png)
