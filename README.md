@@ -1,11 +1,12 @@
-# inCitu x Accelerate-SF
-at [inCitu](https://www.incitu.us/), we are on a mission to democratize city planning and bring the future of the built environment to life through Augmented Reality. 
+At [inCitu](https://www.incitu.us/), we are on a mission to democratize city planning and bring the future of the built environment to life through Augmented Reality. 
 We make open data more actionable, tangible and accessible to all residents, on the ground level in the streets. 
 With our Ai powered generative technology channeled into mobile AR, anyone can simply scan a QR code to interact with the future of their cities in 3D.
 
-# Working with SF Open Data
+## How to work with inCitu at Accelerate SF
 
-## [Permits and Application Data](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9)
+### Working with SF Open Data
+
+### [Permits and Application Data](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9)
 The main source of future projects and necessary attributes for these project to create the AR models. 
 
 ### 1. Permits Type Definition: 
@@ -14,7 +15,7 @@ This is the where work application
 * Suggested types to consider are “new construction”, “new construction wood frame”. 
 
 ### 2. Current Status Date/Filed Date/Issued Date: 
-A search on Google Street View might reveal some projects in the datasets are already finished even when their permits status is not updated to “complete”. Something to consider is to control the universe of data 
+A search on Google Street View might reveal some projects in the datasets are already finished even when their permits status is not updated to “complete”. Something to consider is to control the universe of data. 
 
 ### 3. Proposed Use
 Building type is a required input for model generation. The values from the source data will need to be cast into one of the few accepted types that our backend schema defined. Please check the data dictionary for what those accepted values are. 
@@ -23,8 +24,7 @@ Building type is a required input for model generation. The values from the sour
 The number of floors the proposed building would have. A required attribute for model generation purposes. 
 
 ### 5. Description
-This would need to be the source of a couple of key attributes the AR model generation pipeline would depend on. This would be a textual analysis exercise and extract as much and also as accurate information as possible.
-When the building type is ambiguous or not specified in the attributes mentioned above. Then this could be a supplemental source to generate the building type attribute. 
+This would need to be the source of a couple of key attributes the AR model generation pipeline would depend on. This would be a textual analysis exercise and extract as much and also as accurate information as possible. When the building type is ambiguous or not specified in the attributes mentioned above. Then this could be a supplemental source to generate the building type attribute. 
 
 ## [Building Footprints](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Map-of-Building-Footprints/xy57-fey9)
 Footprints data need to be joined with the other attributes data in order to create AR models and also to be geo-anchored their future sites.  
