@@ -3,7 +3,7 @@ at [inCitu](https://www.incitu.us/), we are on a mission to democratize city pla
 We make open data more actionable, tangible and accessible to all residents, on the ground level in the streets. 
 With our Ai powered generative technology channeled into mobile AR, anyone can simply scan a QR code to interact with the future of their cities in 3D.
 
-# Working with our data
+# Working with SF Open Data
 
 ## [Permits and Application Data](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9)
 The main source of future projects and necessary attributes for these project to create the AR models. 
