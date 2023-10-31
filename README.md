@@ -8,9 +8,10 @@ With our Ai powered generative technology channeled into mobile AR, anyone can s
 ## [Permits and Application Data](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9)
 The main source of future projects and necessary attributes for these project to create the AR models. 
 
-### Permits Type Definition: this is the where work application
-For the purpose of visualizing the future development in the city, only a subset of the permit is relevant to our purpose. This attribute could be a useful filter to narrow down the relevant projects.
-Suggested types to consider are “new construction”, “new construction wood frame”. 
+### Permits Type Definition: 
+this is the where work application 
+* For the purpose of visualizing the future development in the city, only a subset of the permit is relevant to our purpose. This attribute could be a useful filter to narrow down the relevant projects.
+* Suggested types to consider are “new construction”, “new construction wood frame”. 
 
 ### Current Status Date/Filed Date/Issued Date: 
 A search on Google Street View might reveal some projects in the datasets are already finished even when their permits status is not updated to “complete”. Something to consider is to control the universe of data 
