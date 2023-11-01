@@ -1,8 +1,30 @@
-At [inCitu](https://www.incitu.us/), we are on a mission to democratize city planning and bring the future of the built environment to life through Augmented Reality. 
-We make open data more actionable, tangible and accessible to all residents, on the ground level in the streets. 
-With our Ai powered generative technology channeled into mobile AR, anyone can simply scan a QR code to interact with the future of their cities in 3D.
+# Challenge: future housing & development w/ inCitu
+Cities like SF are at the forefront of most 21st Century’s challenges. It notoriously takes longer and costs more to build housing in the city of SF than anywhere else in California, fueling the state's homelessness crisis and making it hard for workers to live in the area. The city has pledged to facilitate the development of more housing, including a goal of 46,000 units below market rate by 2031. 
+Meanwhile, the general public does not have reliable, trustworthy tools to help them envision the future of their urban home. While city planning and development data are technically publicly available, the information is often inaccessible, opaque, and mostly only used by the usual suspects: those who are already in power or motivated to spend hours at lengthy and jargon-laden planning meetings. This can lead to protracted fights over development instead of productive conversations, and crowd out silent majority support for crucial new development, especially affordable housing.
 
-## How to work with inCitu at Accelerate SF
+# About inCitu 
+At [inCitu](https://www.incitu.us/), we are on a mission to democratize city planning and bring the future of the built environment to life through Augmented Reality. We make open data more actionable, tangible and accessible to all residents, on the ground level. With our mobile AR, anyone can simply scan a QR code to interact with the future of their cities in 3D.
+
+For Accelerate-SF, we will be providing hackers with open planning data from San Francisco. inCitu has cleaned this data and prepared it for you to use in your work. 
+
+We developed a pipeline to turn Building Permits from SF open data into a city-wide AR layer, using 3D generative AI to create location-based AR experiences. Our platform is already active in three US Cities, and we are excited to expand to SF!
+
+As hackers in this challenge, we are letting you in the weeds of our pipeline, allowing you to hack it in three optional stages, to let you imagine what SF would be like if the data about its future was accessible and viewable from everyone’s fingertips.
+
+## Potential Project Ideas
+* Use Machine Learning and open data to generate future buildings in 3D and use them in your projects
+* Use our data and generated buildings to create novel visualizations with AI
+* Use AI to enrich or expand on existing permit data to generate more detailed building models.
+* Use AI to create hypothetical data inputs to show what developments would look like if certain zoning/laws were in place
+* Using our cleaned data for any projects relating to housing, development, zoning, or the future of SF
+* Activate a future building site in AR near the hackathon venue using inCitu’s pipeline
+
+## Similar/Existing Project examples
+[Visualize the Wallis Annenberg Wildlife Crossing with New Snapchat Lens](https://annenberg.org/news/visualize-the-wallis-annenberg-wildlife-crossing-with-new-snapchat-lens/)
+[Buffalo residents see the future of Ralph Wilson Park Pedestrian Bridge in Augmented Reality!](https://medium.com/incitu/buffalo-residents-see-the-future-of-ralph-wilson-park-pedestrian-bridge-in-augmented-reality-bf32203f83f3)
+[The future of NYC is revealed through Augmented Reality](https://storymaps.arcgis.com/stories/24ab655556494c91aaa799ad6f48d59a)
+[How we created the most visible rezoning proposal in the history of city planning](https://medium.com/incitu/how-we-created-the-most-visible-rezoning-proposal-in-the-history-of-city-planning-d2235be90ce0)
+
 
 ### Working with SF Open Data
 
