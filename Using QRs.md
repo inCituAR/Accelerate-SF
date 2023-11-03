@@ -8,6 +8,6 @@ If users are far from the development site, they will be directed to a web page 
 
 To "activate" projects and let people know that they can unlock AR, we place signs and floor decals with QR codes on site. 
 
-![our QR in action](https://i.imgur.com/Y39XnRO.gifv)
+![Imgur](https://i.imgur.com/Y39XnRO.gifv)
 
-
+<img src="https://static01.bbi.io/2Wt9Tk.gif"/>
