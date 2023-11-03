@@ -19,13 +19,13 @@ As hackers in this challenge, **we are giving you access to multiple stages of o
 * Increase inclusivity, transparency, trust in the planning process
 * Streamline permitting and building of new and affordable homes
 
-## Potential Project Ideas
-* Use Machine Learning and open data to generate future buildings in 3D and use them in your projects
-* Use our data and generated buildings to create novel visualizations with AI
-* Use AI to enrich or expand on existing permit data to generate more detailed building models.
-* Use AI to create hypothetical data inputs to show what developments would look like if certain zoning/laws were in place
-* Using our cleaned data for any projects relating to housing, development, zoning, or the future of SF
-* Activate a future building site in AR near the hackathon venue using inCitu’s pipeline
+## We will provide you with
+**1. Cleaned and filtered tabular permits data** joined with Building Footprints data that includes the essential information about the future development projects within San Francisco and also the required information to create 3D AR models. 
+
+**2. 3D building models generated from the tabular data** using our technology that are AR deployment ready. 
+
+**3. Access to our API with complete projects** that include: generated 3D models geo-anchored in AR, QR codes, project web map. 
+![diagram](https://i.imgur.com/psK8JVh.png)
 
 ## Similar/Existing Project examples
 [Visualize the Wallis Annenberg Wildlife Crossing with New Snapchat Lens](https://annenberg.org/news/visualize-the-wallis-annenberg-wildlife-crossing-with-new-snapchat-lens/)
