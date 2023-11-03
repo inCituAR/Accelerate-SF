@@ -1,5 +1,8 @@
 # Challenge: future housing & development w/ inCitu
-Cities like SF are at the forefront of most 21st Century’s challenges. It notoriously takes longer and costs more to build housing in the city of SF than anywhere else in California, fueling the state's homelessness crisis and making it hard for workers to live in the area. The city has pledged to facilitate the development of more housing, including a goal of 46,000 units below market rate by 2031. 
+## Problem Statement:
+
+Cities like SF are at the forefront of most 21st Century challenges. It notoriously takes longer and costs more to build housing in the city of SF than anywhere else in California, contributing to the state's homelessness crisis and making it hard for workers to live in the area. The city has pledged to facilitate the development of more housing, including a goal of 46,000 units below market rate by 2031. 
+
 Meanwhile, the general public does not have reliable, trustworthy tools to help them envision the future of their urban home. While city planning and development data are technically publicly available, the information is often inaccessible, opaque, and mostly only used by the usual suspects: those who are already in power or motivated to spend hours at lengthy and jargon-laden planning meetings. This can lead to protracted fights over development instead of productive conversations, and crowd out silent majority support for crucial new development, especially affordable housing.
 
 # About inCitu 
@@ -9,7 +12,12 @@ For Accelerate-SF, we will be providing hackers with open planning data from San
 
 We developed a pipeline to turn Building Permits from SF open data into a city-wide AR layer, using 3D generative AI to create location-based AR experiences. Our platform is already active in three US Cities, and we are excited to expand to SF!
 
-As hackers in this challenge, we are letting you in the weeds of our pipeline, allowing you to hack it in three optional stages, to let you imagine what SF would be like if the data about its future was accessible and viewable from everyone’s fingertips.
+As hackers in this challenge, **we are giving you access to multiple stages of our pipeline, which will allow you to generate data, 3D assets, or full AR outputs** for your projects, and help your users imagine what SF would be like if the data about its future was accessible and viewable from everyone’s fingertips.
+
+## Expected Outcomes:
+* Highly accessible visualization of proposed and upcoming development projects
+* Increase inclusivity, transparency, trust in the planning process
+* Streamline permitting and building of new and affordable homes
 
 ## Potential Project Ideas
 * Use Machine Learning and open data to generate future buildings in 3D and use them in your projects
@@ -51,19 +59,5 @@ This would need to be the source of a couple of key attributes the AR model gene
 ## [Building Footprints](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Map-of-Building-Footprints/xy57-fey9)
 Footprints data need to be joined with the other attributes data in order to create AR models and also to be geo-anchored their future sites.  
 Shape: the geometry field which would need to be exported to geojson for model generation. This is currently a multipolygon from the source data. In order to have a successful generation of AR models from our pipeline. This would need to be converted to a Polygon. You might use something like ST_ExteriorRing to do the conversion. Anchor point calculation would also depend on the footprint geometry. Something like ST_DumpPoints might help create the collections of points that would be iterated through to. See more explanations about anchor points in the notes below. 
-
-## [Sidewalks](https://data.sfgov.org/Transportation/Map-of-Sidewalk-Widths/ygcm-bt3x)
-Sidewalk data is relevant for the anchor calculations for the AR models. Please see more detailed notes below on how anchor calculations are done. The elevation point of the sidewalk is part of the output dataset from the open data pipeline. 
-Shape: the geometry is the feature used to calculate the distance from each anchor points candidates and determine which is closest to the sidewalk. The logics could be summarized as followed: 
-* First, pick a closest sidewalk to the project by comparing to all sidewalks to the project centroid.
-* Then, an anchor point is picked from the footprints geometry that is closest to the closest sidewalk.
-
-## Additional Notes on anchor points
-![Image of anchor points](https://i.imgur.com/kdr7RYA.png)
-
-## Finding the nearest point to anchor the AR model
-After multiple on site tests we found out that it is best if we set the AR anchor point to a corner of the footprint closest to the sidewalk. To make these calculations part of the automation, we created some logic that gets the [Sidewalk polygon data](https://data.cityofnewyork.us/City-Government/Sidewalk/vfx9-tbb6) and finds the closest Sidewalk, then by iteration through footprint polygon data we compare the distances between polygon points and sidewalk. The elevation point is also picked from the nearest sidewalk after the anchor point is selected. Then, the elevation point is defined as the point on the sidewalk that is closest to the building anchor point. Then using latitude and longitude we can query the elevation data from [https://epqs.nationalmap.gov](https://epqs.nationalmap.gov)
-
-![Imgur](https://i.imgur.com/YmIloMJ.png)
 
 
