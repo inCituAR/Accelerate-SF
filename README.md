@@ -27,15 +27,53 @@ As hackers in this challenge, **we are giving you access to multiple stages of o
 **3. Access to our API with complete projects** that include: generated 3D models geo-anchored in AR, QR codes, project web map. 
 ![diagram](https://i.imgur.com/psK8JVh.png)
 
-## Similar/Existing Project examples
-[Visualize the Wallis Annenberg Wildlife Crossing with New Snapchat Lens](https://annenberg.org/news/visualize-the-wallis-annenberg-wildlife-crossing-with-new-snapchat-lens/)
-[Buffalo residents see the future of Ralph Wilson Park Pedestrian Bridge in Augmented Reality!](https://medium.com/incitu/buffalo-residents-see-the-future-of-ralph-wilson-park-pedestrian-bridge-in-augmented-reality-bf32203f83f3)
-[The future of NYC is revealed through Augmented Reality](https://storymaps.arcgis.com/stories/24ab655556494c91aaa799ad6f48d59a)
-[How we created the most visible rezoning proposal in the history of city planning](https://medium.com/incitu/how-we-created-the-most-visible-rezoning-proposal-in-the-history-of-city-planning-d2235be90ce0)
+## Example uses
+- **Use our cleaned, ready-to-use permits data to generate your own 3D**
+Your 3D output can be either sent through our API to experience it in AR or you can export it to your medium/platform of choice.
+
+  For example: 
+
+  - Use ML to enrich or expand on existing permit data to generate more detailed building models
+Use ML to create hypothetical data inputs to show what developments would look like if certain zoning/laws were in place
+Use our cleaned data for any projects relating to housing, development, zoning, or the future of SF
+Use ML to generate future buildings in 3D, and view them in real scale on site through the inCitu platform
 
 
-### Working with SF Open Data
+- **Use an export of our generated 3D models in your own projects**
+Use our data and generated buildings to create novel visualizations. 
+What are some new ways in which you might use these 3D outputs? 
 
+  For example: 
+
+  - Embed our 3D models into a map based project visualizing data related to climate or any other issue
+  - Improve our model exports by adding textures, details, and other characteristics using generative AI
+  - Use our models in a futuristic game world   
+  
+- **Use our complete output of SF future developments** 
+You can use our full output which includes a web map and QRs leading to geo anchored AR.
+
+  For example:
+
+  - Activate a future building site in AR near the hackathon venue using inCitu’s pipeline
+  - Imagine other ways to encourage discoverability on the street or online. 
+  - How might our AR empower another product or experience? 
+
+## Examples of inCitu activations from Other Cities:
+
+Examples of inCitu activations from Other Cities:
+- NYC: 
+(Web Map)[https://www.incitu.us/map],(Storymap)[https://storymaps.arcgis.com/stories/24ab655556494c91aaa799ad6f48d59a], (Tour)[https://youtu.be/HDGK7zhIYe4?feature=shared], (Case Study: How we created the most visible rezoning proposal in the history of city planning)[https://medium.com/incitu/how-we-created-the-most-visible-rezoning-proposal-in-the-history-of-city-planning-d2235be90ce0]
+
+
+- Charleston, SC: 
+(inCitu launching Augmented Reality experience for Charleston flood protection development)[https://www.auganix.org/ar-news-incitu-launching-augmented-reality-experience-for-charleston-flood-protection-development/]
+
+- Washington DC: 
+(Video)[https://www.instagram.com/incitu_ar/]
+
+
+
+### How to work with our SF Open Data
 ### [Permits and Application Data](https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9)
 The main source of future projects and necessary attributes for these project to create the AR models. 
 
