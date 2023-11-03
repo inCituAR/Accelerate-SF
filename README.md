@@ -12,7 +12,7 @@ For Accelerate-SF, we will be providing hackers with open planning data from San
 
 We developed a pipeline to turn Building Permits from SF open data into a city-wide AR layer, using 3D generative AI to create location-based AR experiences. Our platform is already active in three US Cities, and we are excited to expand to SF!
 
-As hackers in this challenge, **we are giving you access to multiple stages of our pipeline, which will allow you to generate data, 3D assets, or full AR outputs** for your projects, and help your users imagine what SF would be like if the data about its future was accessible and viewable from everyone’s fingertips.
+As hackers in this challenge, **we are giving you access to multiple stages of our pipeline, which will allow you to generate data, 3D assets, or full AR outputs** <br> for your projects, and help your users imagine what SF would be like if the data about its future was accessible and viewable from everyone’s fingertips.
 
 ## Expected Outcomes:
 * Highly accessible visualization of proposed and upcoming development projects
@@ -28,7 +28,7 @@ As hackers in this challenge, **we are giving you access to multiple stages of o
 ![diagram](https://i.imgur.com/psK8JVh.png)
 
 ## Example uses
-- **Use our cleaned, ready-to-use permits data to generate your own 3D**
+- **Use our cleaned, ready-to-use permits data to generate your own 3D**<br> 
 Your 3D output can be either sent through our API to experience it in AR or you can export it to your medium/platform of choice.
 
   _For example:_ 
@@ -38,7 +38,7 @@ Use our cleaned data for any projects relating to housing, development, zoning, 
 Use ML to generate future buildings in 3D, and view them in real scale on site through the inCitu platform
 
 
-- **Use an export of our generated 3D models in your own projects**
+- **Use an export of our generated 3D models in your own projects**<br> 
 Use our data and generated buildings to create novel visualizations. 
 What are some new ways in which you might use these 3D outputs? 
 
@@ -48,7 +48,7 @@ What are some new ways in which you might use these 3D outputs?
   - Use our models in a futuristic game world   
 
 
-- **Use our complete output of SF future developments**
+- **Use our complete output of SF future developments**<br> 
   You can use our full output which includes a web map and QRs leading to geo anchored AR.
 
   _For example:_
