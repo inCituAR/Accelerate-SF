@@ -30,15 +30,26 @@ As hackers in this challenge, **we are giving you access to multiple stages of o
 The API is provided in GraphQL format. A demo query (which includes most relevant entities and fields) can be viewed and run here:
 [City Projects Query](https://studio.apollographql.com/sandbox/explorer?endpoint=https%3A%2F%2Fapi.incitu.us%2Fgraphql&explorerURLState=N4IgJg9gxgrgtgUwHYBcQC4QEcYIE4CeABFAJYoED6ADnhAFYJQoDORwAOkkUbQ06wAUAdwAW%2BBOnYlyBKcCKkW8okgCGiFQhxqANsqIcQAZTXcAYnjNkWUCEaIBfJy8cBKdlx49SYL9-VEfx41MDA8BBYWYKIwSKg8UmoUUggkGJYUNRQYaO5vXTSAc3IYOJjdbNLy-JDdFJya7xkKAEk-WqIWCBg8KAQAJSYIPDB2mMhYRFQ2Tk6eQIQYnl7dGMcYgCMYUl0wUiQi2eWiADMICBRaA5Rx%2BdjhBF1dA6KAVSRyPOaebd39w4AFQI1CW9z%2Be1exlEalBJwhAKKAAkEKQiqIUPCdpDDgBZbL4Uh6E6nQojY73HhFOgwJBgcxkvAnHiki54FFojEnDb3OAQOK6ADMYApP28FDhlLOuwQABloFU0syiNZRCNXp4pVSEBBfBz0ZitSqkFA1XgAMJsgEEzVisWFQ7VMF2n6VBplZ0u7x6d1NL08l0Bn5BnhBnk8kCOIA)
 
+For programmatic access, you can use the following endpoint: `https://api.incitu.us/graphql`, and explore the schema.
+
+The main API entities are:
+- `Project` - a future development project (can be filtered by `city: "San Francisco"`)
+- `Building` - a building that is part of a project
+- `Model3D` - a 3D model of a building
+- `Anchoring` - a geo-anchoring of a 3D model
+- `Document` - a document related to a project; 
+also used to link to 2 special documents: `SmartQR` and `qr` which are links to AR/web views of the project
+
+
 ## Example uses
 - **Use our cleaned, ready-to-use permits data to generate your own 3D**<br> 
 Your 3D output can be either sent through our API to experience it in AR or you can export it to your medium/platform of choice.
 
   _For example:_ 
   - Use ML to enrich or expand on existing permit data to generate more detailed building models
-Use ML to create hypothetical data inputs to show what developments would look like if certain zoning/laws were in place
-Use our cleaned data for any projects relating to housing, development, zoning, or the future of SF
-Use ML to generate future buildings in 3D, and view them in real scale on site through the inCitu platform
+  - Use ML to create hypothetical data inputs to show what developments would look like if certain zoning/laws were in place
+  - Use our cleaned data for any projects relating to housing, development, zoning, or the future of SF
+  - Use ML to generate future buildings in 3D, and view them in real scale on site through the inCitu platform
 
 
 - **Use an export of our generated 3D models in your own projects**<br> 
