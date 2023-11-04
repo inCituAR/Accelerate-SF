@@ -1,0 +1,2 @@
+AssetWarning    0 '<initial shape geometry>' '' 'Geometry 'file:/opt/project/functions/3d-model-gen/model_gen/../export/footprint/clohby3v803bg4p02cua3bbfr/clohby3v903bh4p02javkr4uz_0.glb (mesh: mesh_CityEngineMaterial)' contained: 1 0-angles (removed); 
+'
